@@ -27,3 +27,8 @@ person.name = 'John';
 person['name'] = 'Mary';
 
 console.log(person.name)
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 'green';
+console.log(selectedColors);
+
