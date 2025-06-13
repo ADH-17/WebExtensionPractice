@@ -1,6 +1,4 @@
 console.log('Hello World'); // strings kept in ' ' 
-let name = 'Ayden';
-console.log(name);
 
 // variables and concatination
 let firstName = 'Ayden';
@@ -14,3 +12,18 @@ let isApproved = true;
 const interestRate = 0.3;
 //interestRate = 1; should cause error
 console.log(interestRate);
+
+let person = {
+    firstName: 'Ayden',
+    lastName: 'Humphries',
+    color: 'white',
+    age: 20
+};
+
+// dot notation access
+person.name = 'John';
+
+// Bracket Notation
+person['name'] = 'Mary';
+
+console.log(person.name)
