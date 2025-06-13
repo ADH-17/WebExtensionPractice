@@ -30,5 +30,20 @@ console.log(person.name)
 
 let selectedColors = ['red', 'blue'];
 selectedColors[2] = 'green';
+selectedColors[3] = 1;
 console.log(selectedColors);
 
+// performs task
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+
+}
+
+// calculates a value
+function square(number){
+    return number * number; 
+}
+
+greet('Ayden', 'Humphries');
+let number = square(2);
+console.log(number); 
